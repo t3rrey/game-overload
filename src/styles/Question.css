@@ -1,5 +1,32 @@
-.arrow {
-  background: none;
-  border: none;
-  outline: none;
+.Question__wrapper {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  border: 2px black;
+  border-style: solid;
+  border-radius: 25px;
+  max-width: 800px;
+}
+.Question__Votes {
+  border-style: solid;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.Question__Heading-Details {
+  display: flex;
+  border-style: solid;
+}
+
+.Question__Heading__wrapper {
+  border-style: solid;
+}
+.Question__Details__wrapper {
+  border-style: solid;
+}
+
+.Question__Votes__Score {
+  text-align: center;
+  padding: 10px;
 }

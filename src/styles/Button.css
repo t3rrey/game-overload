@@ -1,0 +1,16 @@
+.black {
+  background: black !important;
+  color: white !important;
+}
+
+button {
+  padding: 10px 30px !important;
+  margin: 0 15px !important;
+  font-family: var(--font) !important;
+  letter-spacing: var(--l2) !important;
+  border: 1px solid black !important;
+  background: white !important;
+  border-radius: 10px !important;
+  cursor: pointer !important;
+  outline-color: black !important;
+}

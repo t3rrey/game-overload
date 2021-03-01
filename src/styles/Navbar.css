@@ -1,7 +1,4 @@
-:root {
- --font: 'Open Sans', sans-serif;
- --l2: 2px;
-}
+@import "./variables.css";
 
 .navbar {
   height: 66px;
@@ -28,8 +25,8 @@
   transition: color 0.3s ease;
 }
 
-.navbar__navLinks a:hover{
-  color: rgb(0, 0, 0)
+.navbar__navLinks a:hover {
+  color: rgb(0, 0, 0);
 }
 
 .navbar__searchBar {
@@ -52,32 +49,23 @@
   font-family: var(--font);
 }
 
-.navbar__Btn button {
-    padding: 10px 30px;
-    margin: 0 15px;
-    font-family: var(--font);
-    letter-spacing: var(--l2);
-    border: 1px solid black;
-    background: white;
-    border-radius: 10px;
-    cursor: pointer;
+.navbar__Btn {
+  display: flex;
 }
 
-.navbar__Btn--black {
-  background: black !important;
-  border: none;
-  color: white;
-}
-
-.navbar__searchBar input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+.navbar__searchBar input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
   letter-spacing: var(--l2);
 }
-.navbar__searchBar input::-moz-placeholder { /* Firefox 19+ */
+.navbar__searchBar input::-moz-placeholder {
+  /* Firefox 19+ */
   letter-spacing: var(--l2);
 }
-.navbar__searchBar input:-ms-input-placeholder { /* IE 10+ */
+.navbar__searchBar input:-ms-input-placeholder {
+  /* IE 10+ */
   letter-spacing: var(--l2);
 }
-.navbar__searchBar input:-moz-placeholder { /* Firefox 18- */
+.navbar__searchBar input:-moz-placeholder {
+  /* Firefox 18- */
   letter-spacing: var(--l2);
 }
